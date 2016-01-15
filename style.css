@@ -1,11 +1,24 @@
 html, body
 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+
+#container
+{
     width: 100vw;
     height: 100vh;
+    padding: 1px;
 }
 h1
 {
-    font: normal bold 48pt/1.4em 'Copse', serif;
+    font: normal bold 36pt/1.4em 'Copse', serif;
     text-align: center;
 }
 

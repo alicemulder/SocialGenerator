@@ -25,5 +25,5 @@ function init() {
     document.getElementById('answer').innerHTML = the_answer[i];
 
     //totaal random kleuren
-    document.body.style.backgroundColor = 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255)+ ',' + getRandomInt(0, 255) + ')';
+    document.getElementById('container').style.backgroundColor = 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255)+ ',' + getRandomInt(0, 255) + ')';
 }
