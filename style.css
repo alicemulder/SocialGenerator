@@ -1,0 +1,17 @@
+html, body
+{
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Yantramanav', sans-serif;
+
+}
+h1
+{
+    font-family: 'Copse', serif;
+    text-align: center;
+}
+h2
+{
+	font-family: 'Yantramanav', sans-serif;
+	text-align: center;
+}
