@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8"/>
 	<title>Social media generator of Death</title>
+    <!-- <title>Breaking news social media generator</title> ??? -->
 	<meta name="description" content="A generator on how to react on news on your social media page."/>
 
     <!-- Description. Used a.o. by Facebook -->
@@ -18,48 +19,16 @@
     <link href='https://fonts.googleapis.com/css?family=Yantramanav:300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
 
-    <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
-        <title>Breaking news social media generator</title>
-        <h1><font size=30>Oh no!</h1></font>
-        <SCRIPT LANGUAGE="JAVASCRIPT">
-<!--   
-        var r_event = new Array (); 
-        r_event[0] = "David Bowie has died"; 
-        r_event[1] = "Istanbul attacked by IS"; 
-        r_event[3] = "Actor Alan Rickman past away"; 
-        r_event[4] = "IS attacks Paris"; 
-        r_event[5] = "Terror attacks on Charlie Hebdo"; 
-        var i = Math.floor(r_event.length * Math.random());
 
-        document.write("<center><font size=48><font color='#FFFFFF'>" +
-        r_event[i]  + "</font></center>");
-        var bgcolorlist=new Array("#2171FB", "#FFD700", "#102B5A", "#FF69B4", "#CD5C5C", "#10435A", "#5A1033", "#ADD8E6", "#E84643", "#ED0A07", "#EA2907", "#E5294B", "#E00D26", "#FF3030", "#FC7500", "#F95700", "#F43900", "#F95620")
-        document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)];
-        </script>
-        <h1><font size=30>Quick, I need to</h1><font>
-        <script type="text/javascript">
-        var r_answer = new Array (); 
-        r_answer[0] = "post a musicvideo"; 
-        r_answer[1] = "change my profile picture"; 
-        r_answer[3] = "post an emotional personal story about it"; 
-        r_answer[4] = "post lyrics of a deep, intelligent song"; 
-        r_answer[5] = "repost an illustration of which <br> no one knows who made it anymore"; 
-        r_answer[6] = "post a photo of that"
+<body onload="init();">
+    <h1>Oh no!</h1>
+    <h2 id="event">...</h1>
+    <h1>Quick, I need to</h1>
+    <h2 id="answer">...</h1>
+    <h1>to show everyone how much I care.</h1>
 
-        var i = Math.floor(r_answer.length * Math.random());
-
-        document.write("<center><font size=48><font color='#FFFFFF'>" +
-        r_answer[i]  + "</font></center>");
-        </script>
-        <h1><font size=30>to show everyone how much I care.</font></h1>
-        <style type="text/css">
-
-body,td,th {
-    color: #000;
-    font-family: 'Copse', serif;
-</html>
-   
+    <script src="script.js"></script>
 </body>
 </html>

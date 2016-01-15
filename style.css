@@ -1,17 +1,17 @@
 html, body
 {
-    box-sizing: border-box;
-    overflow: hidden;
-    font-family: 'Yantramanav', sans-serif;
-
+    width: 100vw;
+    height: 100vh;
 }
 h1
 {
-    font-family: 'Copse', serif;
+    font: normal bold 48pt/1.4em 'Copse', serif;
     text-align: center;
 }
+
 h2
 {
-	font-family: 'Yantramanav', sans-serif;
+	font: normal bold 48pt/1.4em 'Yantramanav', sans-serif;
+    color: #fff;
 	text-align: center;
 }
