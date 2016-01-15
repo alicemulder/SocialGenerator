@@ -16,10 +16,10 @@ function init() {
             "post an emotional personal story about it",
             "post lyrics of a deep, intelligent song",
             "repost an illustration of which no one knows who made it anymore",
-            "post a photo of that"],
-        i = getRandomInt(0, the_event.length - 1);
+            "post a photo of that"
+        ],
+        i = getRandomInt(0, the_event.length - 1),
         j = getRandomInt(0, the_answer.length - 1);
-        k = getRandomInt(0, colors.length - 1);
 
     document.getElementById('event').innerHTML = the_event[i];
     document.getElementById('answer').innerHTML = the_answer[i];
