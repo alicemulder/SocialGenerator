@@ -3,6 +3,9 @@ html, body
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 *, *:before, *:after
@@ -12,19 +15,22 @@ html, body
 
 #container
 {
-    width: 100vw;
-    height: 100vh;
-    padding: 10px 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+    padding: 0 10vw;
 }
 h1
 {
-    font: normal bold 36pt/1.4em 'Copse', serif;
+    font: normal bold 28pt/1em 'Copse', serif;
     text-align: center;
+    padding: 0 0 0.5em;
 }
 
 h2
 {
-	font: normal bold 48pt/1.4em 'Yantramanav', sans-serif;
+	font: normal bold 32pt/1em 'Yantramanav', sans-serif;
     color: #fff;
 	text-align: center;
+    padding: 0 0 0.5em;
 }

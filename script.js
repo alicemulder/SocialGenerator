@@ -21,9 +21,12 @@ function init() {
         i = getRandomInt(0, the_event.length - 1),
         j = getRandomInt(0, the_answer.length - 1);
 
+
+    console.log('event: ' + i + ', answer: ' + j);
+
     document.getElementById('event').innerHTML = the_event[i];
     document.getElementById('answer').innerHTML = the_answer[i];
 
     //totaal random kleuren
-    document.getElementById('container').style.backgroundColor = 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255)+ ',' + getRandomInt(0, 255) + ')';
+    document.body.style.backgroundColor = 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255)+ ',' + getRandomInt(0, 255) + ')';
 }
