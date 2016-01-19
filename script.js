@@ -50,6 +50,37 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 function init() {
+<<<<<<< Updated upstream
+=======
+    var the_event = [
+            "David Bowie has died",
+            "Istanbul attacked by IS",
+            "Actor Alan Rickman past away",
+            "IS attacks Paris",
+            "Terror attacks on Charlie Hebdo",
+            "Lemmy Kilmister died of cancer",
+            "Discriminating lyrics sang during footballmatch",
+            "Children died of famine in Syrian city of Madaya",
+            "Donald Trump says something annoying again",
+            "Body of 3-year old refugee child found on Turkish beach"
+        ],
+        the_answer = [
+            "post a musicvideo",
+            "change my profile picture",
+            "post an emotional personal story about it",
+            "post lyrics of a deep, intelligent song",
+            "repost an illustration of which no one knows who made it anymore",
+            "post a photo of that",
+            "retweet something a famous person posted on this",
+            "post a photo with a 'heartbreaking' quote on it",
+            "write an angry text on the lack of involvement of politicians",
+            "post a funny catvideo",
+            "write something including the relevant trending hashtag"
+        ],
+        i = getRandomInt(0, the_event.length - 1),
+        j = getRandomInt(   0, the_answer.length - 1),
+        colors = ["AntiqueWhite", "BurlyWood", "CornflowerBlue", "Coral", "Crimson", "DarkKhaki", "DarkOliveGreen", "DarkRed", "DarkSalmon", "DarkSeaGreen", "LightBlue", "Gainsboro", "Gold", "Khaki", "LightSkyBlue", "LightSteelBlue", "Orange", "Peru", "RosyBrown", "Tan", "YellowGreen"];
+>>>>>>> Stashed changes
 
     // first launch
     getSocialMedia();
