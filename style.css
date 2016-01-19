@@ -7,12 +7,10 @@ html, body
     height: 100vh;
     overflow: hidden;
 }
-
 *, *:before, *:after
 {
     box-sizing: inherit;
 }
-
 #container
 {
     position: relative;

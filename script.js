@@ -51,6 +51,7 @@ function getRandomInt(min, max) {
 }
 function init() {
 
+    // first launch
     getSocialMedia();
 
     window.addEventListener('keyup', function(event) {
@@ -68,8 +69,7 @@ function getSocialMedia() {
 
     document.getElementById('event').innerHTML = the_event[i];
     document.getElementById('answer').innerHTML = the_answer[i];
-
-    //totaal random kleuren
+    
     // document.body.style.backgroundColor = 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255)+ ',' + getRandomInt(0, 255) + ')';
     document.body.style.backgroundColor = colors[getRandomInt(0, colors.length - 1)];
 }
