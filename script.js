@@ -1,4 +1,4 @@
-var var the_event = [
+var the_event = [
         "David Bowie has died",
         "Istanbul attacked by IS",
         "Actor Alan Rickman past away",
@@ -33,7 +33,7 @@ var var the_event = [
         "DarkRed",
         "DarkSalmon",
         "DarkSeaGreen",
-        "LightBlue", 
+        "LightBlue",
         "Gainsboro",
         "Gold",
         "Khaki",
@@ -49,7 +49,6 @@ var var the_event = [
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
 function init() {
 
     getSocialMedia();
