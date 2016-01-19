@@ -55,10 +55,7 @@ function init() {
 
     window.addEventListener('keyup', function(event) {
         console.log(event.keyCode);
-
-        if (event.keyCode == 13) {
-            getSocialMedia();
-        }
+        getSocialMedia();
     });
 }
 
