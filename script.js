@@ -2,7 +2,7 @@ var the_event = [
         "David Bowie has died",
         "Istanbul attacked by IS",
         "Prince found dead in his own house",
-        "Terorr attacks on airport and metro Brussels",
+        "Terror attacks on airport and metro Brussels",
         "Terror attacks on Charlie Hebdo",
         "Lemmy Kilmister died of cancer",
         "Discriminating lyrics sang during footballmatch",
@@ -23,7 +23,8 @@ var the_event = [
         "post a photo with a 'heartbreaking' quote on it",
         "write an angry text on the lack of involvement of politicians",
         "post a funny catvideo",
-        "write something including the relevant trending hashtag"
+        "write something including the relevant trending hashtag",
+        "make a drawing about it and hope for it to go viral"
     ],
     colors = [
         "AntiqueWhite",
