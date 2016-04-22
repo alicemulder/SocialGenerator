@@ -9,7 +9,8 @@ var the_event = [
         "Children died of famine in Syrian city of Madaya",
         "Donald Trump says something annoying again",
         "Eartquake in Equador",
-        "Boat with refugees sunk in Mediterranean"
+        "Boat with refugees sunk in Mediterranean",
+        "Johan Cruijff died of cancer"
     ],
     the_answer = [
         "post a musicvideo",
