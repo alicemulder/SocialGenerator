@@ -1,13 +1,15 @@
 var the_event = [
         "David Bowie has died",
         "Istanbul attacked by IS",
-        "Actor Alan Rickman past away",
-        "IS attacks Paris",
+        "Prince found dead in his own house",
+        "Terorr attacks on airport and metro Brussels",
         "Terror attacks on Charlie Hebdo",
         "Lemmy Kilmister died of cancer",
         "Discriminating lyrics sang during footballmatch",
         "Children died of famine in Syrian city of Madaya",
-        "Donald Trump says something annoying again"
+        "Donald Trump says something annoying again",
+        "Eartquake in Equador",
+        "Boat with refugees sunk in Mediterranean"
     ],
     the_answer = [
         "post a musicvideo",
