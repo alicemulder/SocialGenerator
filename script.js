@@ -61,7 +61,7 @@ function getSocialMedia() {
     console.log('event: ' + i + ', answer: ' + j);
 
     document.getElementById('event').innerHTML = the_event[i];
-    document.getElementById('answer').innerHTML = the_answer[i];
+    document.getElementById('answer').innerHTML = the_answer[j];
 
     // document.body.style.backgroundColor = 'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255)+ ',' + getRandomInt(0, 255) + ')';
     document.body.style.backgroundColor = colors[getRandomInt(0, colors.length - 1)];
