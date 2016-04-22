@@ -8,7 +8,7 @@ var the_event = [
         "Discriminating lyrics sang during footballmatch",
         "Children died of famine in Syrian city of Madaya",
         "Donald Trump says something annoying again",
-        "Eartquake in Equador",
+        "Earthquake in Ecuador",
         "Boat with refugees sunk in Mediterranean",
         "Johan Cruijff died of cancer"
     ],
